@@ -11,6 +11,7 @@ namespace ComicBookGallery.Data
         private static ComicBook[] _comicBooks = new ComicBook[] {
             new ComicBook()
             {
+                Id = 1,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Something.</p>",
@@ -23,6 +24,7 @@ namespace ComicBookGallery.Data
 
             new ComicBook()
             {
+                Id = 2,
                 SeriesTitle = "Bone",
                 IssueNumber = 50,
                 DescriptionHtml = "<p>Something.</p>",
